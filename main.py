@@ -596,10 +596,3 @@ for msg in st.session_state.messages:
                     pages = sorted(set(pages))
                     st.write(f"{src}")
                     st.write(f"Pages: {pages}")
-
-
-        # # confidence score
-        # if docs:
-        #     unique_docs = len(set([d.page_content for d in docs]))
-        #     confidence = round(min(unique_docs / 2, 1.0), 2)
-        #     st.write(f"Confidence: {confidence}")
