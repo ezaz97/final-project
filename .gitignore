@@ -1,0 +1,8 @@
+.env
+template.sh
+# documents/
+# vectordb/
+
+# Python cache
+__pycache__/
+*.pyc
